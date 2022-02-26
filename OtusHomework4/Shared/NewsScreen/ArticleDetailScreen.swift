@@ -23,6 +23,7 @@ struct ArticleDetailScreen: View {
                     .font(.largeTitle)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding()
+                    .focusable()
                 
                 if let description = article.description {
                     Text(description)
@@ -31,8 +32,6 @@ struct ArticleDetailScreen: View {
                         .padding()
                 }
             }
-            .frame(maxWidth: UIScreen.main.bounds.width - 20)
         }
-        .navigationBarTitle("Details", displayMode: .inline)
     }
 }

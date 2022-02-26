@@ -33,9 +33,83 @@
 		0B55CBD527C9746E0067402D /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD327C9746E0067402D /* NewsListCell.swift */; };
 		0B55CBD727C976640067402D /* ArticleDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD627C976640067402D /* ArticleDetailScreen.swift */; };
 		0B55CBD827C976640067402D /* ArticleDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD627C976640067402D /* ArticleDetailScreen.swift */; };
-		0B55CBDA27C9793C0067402D /* TestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD927C9793C0067402D /* TestScreen.swift */; };
-		0B55CBDB27C9793C0067402D /* TestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD927C9793C0067402D /* TestScreen.swift */; };
+		0B55CBE727C9FDAD0067402D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B55CBE627C9FDAD0067402D /* Assets.xcassets */; };
+		0B55CBEA27C9FDAD0067402D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B55CBE927C9FDAD0067402D /* Preview Assets.xcassets */; };
+		0B55CBEF27C9FDDF0067402D /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 0B55CBEE27C9FDDF0067402D /* Networking */; };
+		0B55CBF027C9FDE70067402D /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC427C931050067402D /* NewsScreen.swift */; };
+		0B55CBF227C9FDED0067402D /* NewsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC727C9312B0067402D /* NewsScreenViewModel.swift */; };
+		0B55CBF327C9FDF00067402D /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD327C9746E0067402D /* NewsListCell.swift */; };
+		0B55CBF427C9FDF20067402D /* ArticleDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD627C976640067402D /* ArticleDetailScreen.swift */; };
+		0B55CBF527C9FDF60067402D /* OtusHomework4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CB9627C92A3F0067402D /* OtusHomework4App.swift */; };
+		0B55CBF627C9FDF90067402D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CB9727C92A3F0067402D /* ContentView.swift */; };
+		0B55CBF727C9FDFC0067402D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBB427C92F3B0067402D /* Router.swift */; };
+		0B55CBF827C9FDFE0067402D /* InjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBB727C92F550067402D /* InjectWrapper.swift */; };
+		0B55CBF927C9FE000067402D /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBBA27C92F720067402D /* Configurator.swift */; };
+		0B55CBFA27C9FE020067402D /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBBD27C92F9A0067402D /* ServiceLocator.swift */; };
+		0B55CBFB27C9FE040067402D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC027C92FD30067402D /* NetworkService.swift */; };
+		0B55CC0227C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B55CC0127C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B55CC0727C9FE5F0067402D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B55CC0627C9FE5F0067402D /* Assets.xcassets */; };
+		0B55CC0D27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B55CC0C27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B55CC1627C9FE5F0067402D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CC1527C9FE5F0067402D /* NotificationController.swift */; };
+		0B55CC1827C9FE5F0067402D /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CC1727C9FE5F0067402D /* NotificationView.swift */; };
+		0B55CC1A27C9FE5F0067402D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CC1927C9FE5F0067402D /* ComplicationController.swift */; };
+		0B55CC1C27C9FE600067402D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B55CC1B27C9FE600067402D /* Assets.xcassets */; };
+		0B55CC1F27C9FE600067402D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B55CC1E27C9FE600067402D /* Preview Assets.xcassets */; };
+		0B55CC2E27C9FE940067402D /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC427C931050067402D /* NewsScreen.swift */; };
+		0B55CC2F27C9FE9A0067402D /* NewsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC727C9312B0067402D /* NewsScreenViewModel.swift */; };
+		0B55CC3127C9FEA30067402D /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD327C9746E0067402D /* NewsListCell.swift */; };
+		0B55CC3227C9FEA50067402D /* ArticleDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBD627C976640067402D /* ArticleDetailScreen.swift */; };
+		0B55CC3327C9FEA70067402D /* OtusHomework4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CB9627C92A3F0067402D /* OtusHomework4App.swift */; };
+		0B55CC3427C9FEAC0067402D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CB9727C92A3F0067402D /* ContentView.swift */; };
+		0B55CC3527C9FEAF0067402D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBB427C92F3B0067402D /* Router.swift */; };
+		0B55CC3627C9FEB10067402D /* InjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBB727C92F550067402D /* InjectWrapper.swift */; };
+		0B55CC3727C9FEB30067402D /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBBA27C92F720067402D /* Configurator.swift */; };
+		0B55CC3827C9FEB60067402D /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBBD27C92F9A0067402D /* ServiceLocator.swift */; };
+		0B55CC3927C9FEB80067402D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55CBC027C92FD30067402D /* NetworkService.swift */; };
+		0B55CC3B27C9FEC90067402D /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 0B55CC3A27C9FEC90067402D /* Networking */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B55CC0327C9FE5C0067402D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B55CB9127C92A3F0067402D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B55CC0027C9FE5C0067402D;
+			remoteInfo = "OtusHomework4watchOS WatchKit App";
+		};
+		0B55CC0E27C9FE5F0067402D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B55CB9127C92A3F0067402D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B55CC0B27C9FE5F0067402D;
+			remoteInfo = "OtusHomework4watchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B55CC2527C9FE600067402D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B55CC0D27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CC2927C9FE600067402D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B55CC0227C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B55CB9627C92A3F0067402D /* OtusHomework4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusHomework4App.swift; sourceTree = "<group>"; };
@@ -54,7 +128,20 @@
 		0B55CBCD27C973F60067402D /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Networking; path = Modules/Networking; sourceTree = "<group>"; };
 		0B55CBD327C9746E0067402D /* NewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCell.swift; sourceTree = "<group>"; };
 		0B55CBD627C976640067402D /* ArticleDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailScreen.swift; sourceTree = "<group>"; };
-		0B55CBD927C9793C0067402D /* TestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreen.swift; sourceTree = "<group>"; };
+		0B55CBE027C9FDAA0067402D /* OtusHomework4tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHomework4tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B55CBE627C9FDAD0067402D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B55CBE927C9FDAD0067402D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B55CBFE27C9FE5C0067402D /* OtusHomework4watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHomework4watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B55CC0127C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OtusHomework4watchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B55CC0627C9FE5F0067402D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B55CC0C27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OtusHomework4watchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B55CC1527C9FE5F0067402D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0B55CC1727C9FE5F0067402D /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0B55CC1927C9FE5F0067402D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0B55CC1B27C9FE600067402D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B55CC1E27C9FE600067402D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B55CC2027C9FE600067402D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B55CC2127C9FE600067402D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +161,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B55CBDD27C9FDAA0067402D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CBEF27C9FDDF0067402D /* Networking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CC0927C9FE5F0067402D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CC3B27C9FEC90067402D /* Networking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +186,9 @@
 				0B55CBCD27C973F60067402D /* Networking */,
 				0B55CB9527C92A3F0067402D /* Shared */,
 				0B55CBA427C92A410067402D /* macOS */,
+				0B55CBE127C9FDAA0067402D /* OtusHomework4tvOS */,
+				0B55CC0527C9FE5C0067402D /* OtusHomework4watchOS WatchKit App */,
+				0B55CC1027C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension */,
 				0B55CB9E27C92A410067402D /* Products */,
 				0B55CBCE27C974130067402D /* Frameworks */,
 			);
@@ -91,7 +197,6 @@
 		0B55CB9527C92A3F0067402D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0B55CBD927C9793C0067402D /* TestScreen.swift */,
 				0B55CBC327C930F80067402D /* NewsScreen */,
 				0B55CB9827C92A410067402D /* Assets.xcassets */,
 				0B55CB9627C92A3F0067402D /* OtusHomework4App.swift */,
@@ -110,6 +215,10 @@
 			children = (
 				0B55CB9D27C92A410067402D /* OtusHomework4.app */,
 				0B55CBA327C92A410067402D /* OtusHomework4.app */,
+				0B55CBE027C9FDAA0067402D /* OtusHomework4tvOS.app */,
+				0B55CBFE27C9FE5C0067402D /* OtusHomework4watchOS.app */,
+				0B55CC0127C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app */,
+				0B55CC0C27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +247,53 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B55CBE127C9FDAA0067402D /* OtusHomework4tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B55CBE627C9FDAD0067402D /* Assets.xcassets */,
+				0B55CBE827C9FDAD0067402D /* Preview Content */,
+			);
+			path = OtusHomework4tvOS;
+			sourceTree = "<group>";
+		};
+		0B55CBE827C9FDAD0067402D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B55CBE927C9FDAD0067402D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B55CC0527C9FE5C0067402D /* OtusHomework4watchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0B55CC0627C9FE5F0067402D /* Assets.xcassets */,
+			);
+			path = "OtusHomework4watchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		0B55CC1027C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B55CC1527C9FE5F0067402D /* NotificationController.swift */,
+				0B55CC1727C9FE5F0067402D /* NotificationView.swift */,
+				0B55CC1927C9FE5F0067402D /* ComplicationController.swift */,
+				0B55CC1B27C9FE600067402D /* Assets.xcassets */,
+				0B55CC2027C9FE600067402D /* Info.plist */,
+				0B55CC2127C9FE600067402D /* PushNotificationPayload.apns */,
+				0B55CC1D27C9FE600067402D /* Preview Content */,
+			);
+			path = "OtusHomework4watchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0B55CC1D27C9FE600067402D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B55CC1E27C9FE600067402D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +339,80 @@
 			productReference = 0B55CBA327C92A410067402D /* OtusHomework4.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0B55CBDF27C9FDAA0067402D /* OtusHomework4tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B55CBEB27C9FDAD0067402D /* Build configuration list for PBXNativeTarget "OtusHomework4tvOS" */;
+			buildPhases = (
+				0B55CBDC27C9FDAA0067402D /* Sources */,
+				0B55CBDD27C9FDAA0067402D /* Frameworks */,
+				0B55CBDE27C9FDAA0067402D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtusHomework4tvOS;
+			packageProductDependencies = (
+				0B55CBEE27C9FDDF0067402D /* Networking */,
+			);
+			productName = OtusHomework4tvOS;
+			productReference = 0B55CBE027C9FDAA0067402D /* OtusHomework4tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B55CBFD27C9FE5C0067402D /* OtusHomework4watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B55CC2A27C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS" */;
+			buildPhases = (
+				0B55CBFC27C9FE5C0067402D /* Resources */,
+				0B55CC2927C9FE600067402D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B55CC0427C9FE5C0067402D /* PBXTargetDependency */,
+			);
+			name = OtusHomework4watchOS;
+			productName = OtusHomework4watchOS;
+			productReference = 0B55CBFE27C9FE5C0067402D /* OtusHomework4watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0B55CC0027C9FE5C0067402D /* OtusHomework4watchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B55CC2627C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS WatchKit App" */;
+			buildPhases = (
+				0B55CBFF27C9FE5C0067402D /* Resources */,
+				0B55CC2527C9FE600067402D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B55CC0F27C9FE5F0067402D /* PBXTargetDependency */,
+			);
+			name = "OtusHomework4watchOS WatchKit App";
+			productName = "OtusHomework4watchOS WatchKit App";
+			productReference = 0B55CC0127C9FE5C0067402D /* OtusHomework4watchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0B55CC0B27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B55CC2227C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS WatchKit Extension" */;
+			buildPhases = (
+				0B55CC0827C9FE5F0067402D /* Sources */,
+				0B55CC0927C9FE5F0067402D /* Frameworks */,
+				0B55CC0A27C9FE5F0067402D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OtusHomework4watchOS WatchKit Extension";
+			packageProductDependencies = (
+				0B55CC3A27C9FEC90067402D /* Networking */,
+			);
+			productName = "OtusHomework4watchOS WatchKit Extension";
+			productReference = 0B55CC0C27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +427,18 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					0B55CBA227C92A410067402D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0B55CBDF27C9FDAA0067402D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0B55CBFD27C9FE5C0067402D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0B55CC0027C9FE5C0067402D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0B55CC0B27C9FE5F0067402D = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -216,6 +458,10 @@
 			targets = (
 				0B55CB9C27C92A410067402D /* OtusHomework4 (iOS) */,
 				0B55CBA227C92A410067402D /* OtusHomework4 (macOS) */,
+				0B55CBDF27C9FDAA0067402D /* OtusHomework4tvOS */,
+				0B55CBFD27C9FE5C0067402D /* OtusHomework4watchOS */,
+				0B55CC0027C9FE5C0067402D /* OtusHomework4watchOS WatchKit App */,
+				0B55CC0B27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +483,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B55CBDE27C9FDAA0067402D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CBEA27C9FDAD0067402D /* Preview Assets.xcassets in Resources */,
+				0B55CBE727C9FDAD0067402D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CBFC27C9FE5C0067402D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CBFF27C9FE5C0067402D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CC0727C9FE5F0067402D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CC0A27C9FE5F0067402D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CC1F27C9FE600067402D /* Preview Assets.xcassets in Resources */,
+				0B55CC1C27C9FE600067402D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,7 +526,6 @@
 				0B55CBC527C931050067402D /* NewsScreen.swift in Sources */,
 				0B55CBBE27C92F9A0067402D /* ServiceLocator.swift in Sources */,
 				0B55CBC827C9312B0067402D /* NewsScreenViewModel.swift in Sources */,
-				0B55CBDA27C9793C0067402D /* TestScreen.swift in Sources */,
 				0B55CBB827C92F550067402D /* InjectWrapper.swift in Sources */,
 				0B55CBA827C92A410067402D /* ContentView.swift in Sources */,
 				0B55CBB527C92F3B0067402D /* Router.swift in Sources */,
@@ -266,7 +544,6 @@
 				0B55CBC627C931050067402D /* NewsScreen.swift in Sources */,
 				0B55CBBF27C92F9A0067402D /* ServiceLocator.swift in Sources */,
 				0B55CBC927C9312B0067402D /* NewsScreenViewModel.swift in Sources */,
-				0B55CBDB27C9793C0067402D /* TestScreen.swift in Sources */,
 				0B55CBB927C92F550067402D /* InjectWrapper.swift in Sources */,
 				0B55CBA927C92A410067402D /* ContentView.swift in Sources */,
 				0B55CBB627C92F3B0067402D /* Router.swift in Sources */,
@@ -278,7 +555,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B55CBDC27C9FDAA0067402D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CBF727C9FDFC0067402D /* Router.swift in Sources */,
+				0B55CBF027C9FDE70067402D /* NewsScreen.swift in Sources */,
+				0B55CBF827C9FDFE0067402D /* InjectWrapper.swift in Sources */,
+				0B55CBFA27C9FE020067402D /* ServiceLocator.swift in Sources */,
+				0B55CBF627C9FDF90067402D /* ContentView.swift in Sources */,
+				0B55CBF327C9FDF00067402D /* NewsListCell.swift in Sources */,
+				0B55CBF427C9FDF20067402D /* ArticleDetailScreen.swift in Sources */,
+				0B55CBF227C9FDED0067402D /* NewsScreenViewModel.swift in Sources */,
+				0B55CBF927C9FE000067402D /* Configurator.swift in Sources */,
+				0B55CBFB27C9FE040067402D /* NetworkService.swift in Sources */,
+				0B55CBF527C9FDF60067402D /* OtusHomework4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B55CC0827C9FE5F0067402D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55CC3527C9FEAF0067402D /* Router.swift in Sources */,
+				0B55CC2E27C9FE940067402D /* NewsScreen.swift in Sources */,
+				0B55CC1627C9FE5F0067402D /* NotificationController.swift in Sources */,
+				0B55CC1A27C9FE5F0067402D /* ComplicationController.swift in Sources */,
+				0B55CC3227C9FEA50067402D /* ArticleDetailScreen.swift in Sources */,
+				0B55CC3127C9FEA30067402D /* NewsListCell.swift in Sources */,
+				0B55CC3827C9FEB60067402D /* ServiceLocator.swift in Sources */,
+				0B55CC3327C9FEA70067402D /* OtusHomework4App.swift in Sources */,
+				0B55CC3427C9FEAC0067402D /* ContentView.swift in Sources */,
+				0B55CC3627C9FEB10067402D /* InjectWrapper.swift in Sources */,
+				0B55CC3927C9FEB80067402D /* NetworkService.swift in Sources */,
+				0B55CC2F27C9FE9A0067402D /* NewsScreenViewModel.swift in Sources */,
+				0B55CC1827C9FE5F0067402D /* NotificationView.swift in Sources */,
+				0B55CC3727C9FEB30067402D /* Configurator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B55CC0427C9FE5C0067402D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B55CC0027C9FE5C0067402D /* OtusHomework4watchOS WatchKit App */;
+			targetProxy = 0B55CC0327C9FE5C0067402D /* PBXContainerItemProxy */;
+		};
+		0B55CC0F27C9FE5F0067402D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B55CC0B27C9FE5F0067402D /* OtusHomework4watchOS WatchKit Extension */;
+			targetProxy = 0B55CC0E27C9FE5F0067402D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B55CBAC27C92A410067402D /* Debug */ = {
@@ -503,6 +832,200 @@
 			};
 			name = Release;
 		};
+		0B55CBEC27C9FDAD0067402D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtusHomework4tvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		0B55CBED27C9FDAD0067402D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtusHomework4tvOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B55CC2327C9FE600067402D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtusHomework4watchOS WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OtusHomework4watchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OtusHomework4watchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		0B55CC2427C9FE600067402D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtusHomework4watchOS WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OtusHomework4watchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OtusHomework4watchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		0B55CC2727C9FE600067402D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = OtusHomework4watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "OtusHomework4watchOS WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		0B55CC2827C9FE600067402D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = OtusHomework4watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "OtusHomework4watchOS WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		0B55CC2B27C9FE600067402D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0B55CC2C27C9FE600067402D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.OtusHomework4watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -533,6 +1056,42 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0B55CBEB27C9FDAD0067402D /* Build configuration list for PBXNativeTarget "OtusHomework4tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B55CBEC27C9FDAD0067402D /* Debug */,
+				0B55CBED27C9FDAD0067402D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B55CC2227C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B55CC2327C9FE600067402D /* Debug */,
+				0B55CC2427C9FE600067402D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B55CC2627C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B55CC2727C9FE600067402D /* Debug */,
+				0B55CC2827C9FE600067402D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B55CC2A27C9FE600067402D /* Build configuration list for PBXNativeTarget "OtusHomework4watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B55CC2B27C9FE600067402D /* Debug */,
+				0B55CC2C27C9FE600067402D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -541,6 +1100,14 @@
 			productName = Networking;
 		};
 		0B55CBD127C9742E0067402D /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		0B55CBEE27C9FDDF0067402D /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		0B55CC3A27C9FEC90067402D /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
 		};

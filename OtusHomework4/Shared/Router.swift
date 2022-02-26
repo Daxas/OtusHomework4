@@ -10,6 +10,5 @@ import SwiftUI
 final class Router: ObservableObject {
     
     @Published var selection: Int = 0
-    @Published var isSymbolShowed: Bool = false
     
 }
